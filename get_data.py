@@ -25,5 +25,5 @@ for filepath in filepaths:
 
     url = parent + filepath
 
-    wget_cmd = "wget -O {} {}".format(local_filename, url)
+    wget_cmd = "wget --force-directories -O {} {}".format(local_filename, url)
     os.system(wget_cmd)
