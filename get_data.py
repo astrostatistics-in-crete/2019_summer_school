@@ -20,10 +20,13 @@ for filepath in filepaths:
         continue
 
     folder, filename = os.path.split(filepath)
-    local_filename = os.path.join(folder, "data", filename)
+    local_folder = os.path.join(folder, "data")
+    local_filename = os.path.join(local_folder, filename)
     #print(folder, filename, local_filename)
 
     url = parent + filepath
 
-    wget_cmd = "wget --force-directories -O {} {}".format(local_filename, url)
+    os.system("mkdir {}".format(local_folder))
+
+    wget_cmd = "wget -O {} {}".format(local_filename, url)
     os.system(wget_cmd)
