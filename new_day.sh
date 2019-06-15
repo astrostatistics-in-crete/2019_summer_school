@@ -1,12 +1,10 @@
-#!/bin/bash
+#!/bin/csh
 clear
 echo "Hello astrostatistics student..."
-
-echo ">> activating Python 3.6"
+echo
+echo ">>>>  ACTIVATING PYTHON 3.6  <<<<"
 conda activate py36
-
-echo ">> downloading data"
-py36 get_data.py
-
-echo ">> executring jupyter notebook"
+echo ">>>>  DOWNLOADING ASTROSTAT19 DATA  <<<<"
+python get_data.py
+echo ">>>>  EXECUTING JUPYTER NOTEBOOK  <<<<"
 jp
