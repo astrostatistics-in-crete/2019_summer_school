@@ -17,7 +17,7 @@ See "Installing" below.
 Python v3.6
 Jupyter notebook
 ```
-Instruction on retrieveing Jupyter notebook here: https://jupyter.org
+Instructions on retrieveing Jupyter notebook are here: https://jupyter.org
 
 ### Installing
 
