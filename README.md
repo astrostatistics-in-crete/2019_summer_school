@@ -28,14 +28,22 @@ git clone https://github.com/astrostatistics-in-crete/2019_summer_school.git
 ```
 
 Then download the data. 
-From within the repository folder, run:
+To do this, from within the repository folder, run:
 
 ```
 python get_data.py
 ```
 This will automatically create the "data" subfolders within each 
 subject folder, and download the data.
-It will also try to run jupyter notebook: ignore that. 
+
+If you are running the notebooks from the school, run
+
+```
+./new_day.sh
+```
+
+This will set up the data, sets up the conda environment and
+starts jupyter notebook. 
 
 ## Running the notebooks
 
