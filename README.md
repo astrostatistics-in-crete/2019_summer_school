@@ -1,17 +1,19 @@
 # Project Title
 
-One Paragraph  of project description goes here
+Notebooks from the teaching sessions and the workshop of the
+2019 Summer School for Astrostatistics in Crete
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running
+on your local machine for development and testing purposes.
+See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+### Prerequisites 
 
 ```
-Give examples
+Python v3.6
+Jupyter notebook (https://jupyter.org/)
 ```
 
 ### Installing
