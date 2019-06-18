@@ -36,19 +36,19 @@ python get_data.py
 This will automatically create the "data" subfolders within each 
 subject folder, and download the data.
 
-If you are running the notebooks from the school, run
+If you are running the notebooks from the school, run:
 
 ```
 ./new_day.sh
 ```
 
-This will set up the data, sets up the conda environment and
-starts jupyter notebook. 
+This will download the data, set up the conda environment and
+start the jupyter notebook. 
 
 ## Running the notebooks
 
 ```
-jupyter-notebook <notebook_name>.ipynb
+jupyter-notebook <notebook_name>.ipynb &
 ```
 ## Authors
 
@@ -60,7 +60,7 @@ jupyter-notebook <notebook_name>.ipynb
 
 ## References
 
-All the material provided (notebooks and scripts) are licenced
+All the material provided here (notebooks and scripts) is licenced
 under the [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
 licence.
 
@@ -74,7 +74,7 @@ properly addressed within each notebook.
 
 If the material you learned through this summer school directly
 and significantly contributed to your work, we invite you to
-include the following acknowledge in your manuscript:
+include the following acknowledgement in your manuscript:
 
 ```
 We wish to thank the "2019 Summer School for Astrostatistics in Crete" for providing training on the statistical methods adopted in this work.
