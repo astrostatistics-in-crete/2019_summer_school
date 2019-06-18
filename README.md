@@ -1,11 +1,12 @@
 # Project Title
 
 Notebooks from the teaching sessions and the workshop of the
-2019 Summer School for Astrostatistics in Crete
+[2019 Summer School for Astrostatistics in Crete](
+https://astro.physics.uoc.gr/Conferences/Astrostatistics_School_Crete_2019)
 
 ## Getting Started
 
-The reository is organized in one folders per subject.
+The repository is organized in one folder per subject.
 You will have to download the notebooks as well as the data (which are on an other server).
 See "Installing" below.
 
