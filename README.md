@@ -5,9 +5,9 @@ Notebooks from the teaching sessions and the workshop of the
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running
-on your local machine for development and testing purposes.
-See deployment for notes on how to deploy the project on a live system.
+The reository is organized in one folders per subject.
+You will have to download the notebooks as well as the data (which are on an other server).
+See "Installing" below.
 
 ### Prerequisites 
 
@@ -19,65 +19,29 @@ Instruction on retrieveing Jupyter notebook here: https://jupyter.org
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+First download or clone this repository on your machine:
 
 ```
-Give the example
+git clone
 ```
 
-And repeat
+Then download the data. 
+From within the repository folder, run:
 
 ```
-until finished
+python get_data.py
 ```
+This will automatically create the "data" subfolders within each subject folder, and download the data.
+It will also try to run jupyter notebook: ignore that. 
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+## Running the notebooks
 
 ```
-Give an example
+jupyter-notebook <notebook_name>.ipynb
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
