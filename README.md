@@ -13,8 +13,9 @@ See deployment for notes on how to deploy the project on a live system.
 
 ```
 Python v3.6
-Jupyter notebook (https://jupyter.org/)
+Jupyter notebook
 ```
+Instruction on retrieveing Jupyter notebook here: https://jupyter.org
 
 ### Installing
 
