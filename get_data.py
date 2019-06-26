@@ -3,7 +3,7 @@ import requests
 
 parent = "http://astro.physics.uoc.gr/Conferences/Astrostatistics_School_Crete_2019/data/"
 datafiles_name = "datafiles"
-setupdata_name = "setup_data.sh"
+setupdata_name = "setup_data"
 
 for filepath in requests.get(parent + datafiles_name).text.split():
     if not filepath.startswith("./"):
